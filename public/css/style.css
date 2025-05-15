@@ -10,17 +10,18 @@
 }
 
 /* Global Styles */
-.margin20{
+.margin20 {
     margin: 20px;
 }
 
-.tabClass{
+.tabClass {
     font-size: 1.5rem;
 }
 
 .headingClass {
     font-size: 2.5rem;
     font-family: "Playfair Display", serif;
+    margin-top: 1rem;
     color: #000;
     text-align: center;
 
@@ -262,7 +263,7 @@ body {
 /* About  Styles */
 
 #aboutSec {
-    
+
     width: 100%;
     /* background-color: #ff0000; */
     position: relative;
@@ -281,6 +282,7 @@ body {
     background-size: cover;
     z-index: -1;
 }
+
 .aboutClass {
     text-align: justify;
     color: #fff;
@@ -289,4 +291,31 @@ body {
     border-bottom: 2px solid #ffffff70;
     width: 75%;
     margin: 2rem auto;
+}
+
+/* Customer Reviews Styles */
+.customerCard {
+    width: 200px;
+    
+    height: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 26, 0.1), 0 0 20px rgba(0, 4, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.customerCard p {
+    font-size: .8rem;
+    color: #757575;
+}
+
+.customerCard img {
+    margin: auto;
+
+    /* align-self: self-start; */
+    width: 150px;
+    /* border-radius: 10px; */
 }

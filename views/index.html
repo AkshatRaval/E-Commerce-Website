@@ -10,25 +10,31 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_name" />
     <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="../public/css/global.css">
+    <link rel="shortcut icon" href="../public/assets/favicon.ico" type="image/x-icon">
     <title>Hariyali Plants</title>
 </head>
 
 <body>
+    <!-- Nav Bar -->
     <header>
         <nav id="navBar" class="flex">
             <ul class="flex">
                 <li><a href="#HomeSec">Home</a></li>
-                <li><a href="#AboutSec">About Us</a></li>
                 <li><a href="#ProductsSec">Products</a></li>
                 <li><a href="#ContactSec">Contact Us</a></li>
+                <li><a href="#AboutSec">About Us</a></li>
             </ul>
         </nav>
     </header>
+    <!-- Home Section -->
     <div id="HomeSec" class="columnFlex">
         <h1>Welcome to Hariyali Plants</h1>
         <p>Your one-stop shop for all your plant needs.</p>
         <button class="buttonClass" style="margin: 25px 0;">Explore</button>
     </div>
+
+    <!-- features Section -->
     <div id="features" class="flex">
         <!-- <h1 class="headingClass">Our features</h1> -->
         <div class="raw flex">
@@ -78,7 +84,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Trending Products -->
     <div id="productSec">
         <h1 class="headingClass">Trending Products</h1>
         <div class="productGrid flex">
@@ -86,9 +92,10 @@
                 <img src="../public/assets/plant-1.jpg" alt="Laxmi Kamal">
                 <h3>Laxmi Kamal</h3>
                 <p>A rosette-shaped succulent, easy to grow and perfect for indoor decor</p>
+                <h1 class="TextClass">85₹</h1>
+
                 <div class="buyClass flex">
                     <button class="buyButtonClass ">Add to Cart</button>
-                    <button class="buyButtonClass colored">Buy Now</button>
                 </div>
             </div>
             <div class="productCard">
@@ -141,7 +148,38 @@
             </div>
             <!-- Add more product cards as needed -->
         </div>
+        <div class="btn-conteiner">
+            <a class="btn-content" href="/views/product.html">
+                <span class="btn-title">See More</span>
+                <span class="icon-arrow">
+                    <svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path id="arrow-icon-one"
+                                d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                fill="#FFFFFF"></path>
+                            <path id="arrow-icon-two"
+                                d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                fill="#FFFFFF"></path>
+                            <path id="arrow-icon-three"
+                                d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                fill="#FFFFFF"></path>
+                        </g>
+                    </svg>
+                </span>
+            </a>
+        </div>
+
     </div>
+    <!-- offer -->
+     <div id="offerSec" class="columnFlex offerClass">
+        <h4>Environment Day - Offer</h4>
+        <h1>Up to 75% Off - All Medico Plants</h1>
+        <button class="buttonClass">Explore More</button>
+     </div>
+
+
+    <!-- About Section -->
     <div class="parentAbout">
         <div id="aboutSec" class="flex">
             <div class="columnFlex aboutClass">
@@ -171,6 +209,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Customer Reviews -->
     <div class="satisfiedCustomer">
         <h1 class="headingClass">What Our Customers Say</h1>
         <p style="text-align: center; color: #757575;">We take pride in our customer satisfaction. Here are some of the
@@ -194,32 +234,69 @@
                 </div>
             </div>
             <div class="customerCard">
-
                 <img src="../public/assets/customer-2.jpg" alt="Customer 2">
                 <div class="star-rating" style="margin: 10px 0;">
                     <i class="fa fa-star" style="color: #FFD700;"></i>
                     <i class="fa fa-star" style="color: #FFD700;"></i>
                     <i class="fa fa-star" style="color: #FFD700;"></i>
-                    <i class="fa fa-star" style="color: #FFD700;"></i>
                     <i class="fa fa-star-half-alt" style="color: #FFD700;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD700;"></i>
                 </div>
                 <h3>Jane Smith</h3>
                 <p>"The customer service was amazing! They helped me choose the perfect plants for my home."</p>
             </div>
+            <div class="customerCard">
+                <img src="../public/assets/customer-3.jpg" alt="Customer 3">
+                <div class="star-rating" style="margin: 10px 0;">
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD700;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD700;"></i>
+                </div>
+                <h3>Michael Lee</h3>
+                <p>"Fast delivery and the plants were packaged with care. Will definitely order again!"</p>
+            </div>
+            <div class="customerCard">
+                <img src="../public/assets/customer-4.jpg" alt="Customer 3">
+                <div class="star-rating" style="margin: 10px 0;">
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD700;"></i>
+                </div>
+                <h3>Sarah Williams</h3>
+                <p>"Beautiful, healthy plants and excellent packaging. Highly recommend Hariyali Plants to all plant
+                    lovers!"</p>
+            </div>
+            <div class="customerCard">
+                <img src="../public/assets/customer-5.jpg" alt="Customer 3">
+                <div class="star-rating" style="margin: 10px 0;">
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star" style="color: #FFD700;"></i>
+                    <i class="fa fa-star-half-alt" style="color: #FFD700;"></i>
+                    <i class="fa-regular fa-star" style="color: #FFD700;"></i>
+                </div>
+                <h3>Emily Johnson</h3>
+                <p>"I was impressed with the variety of plants available. I found exactly what I was looking for!"</p>
+            </div>
+        </div>
+        <div id="contactSec" class="flex">
+            <div class="columnFlex contactClass">
+                <h1 class="headingClass">Contact Us</h1>
+                <p>Have questions or need assistance? We're here to help!</p>
+                <form action="/submit" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
         </div>
     </div>
-    <div id="contactSec" class="flex">
-        <div class="columnFlex contactClass">
-            <h1 class="headingClass">Contact Us</h1>
-            <p>Have questions or need assistance? We're here to help!</p>
-            <form action="/submit" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-
+    <script src="../public/js/main.js"></script>
 </body>
 
 </html>
